@@ -75,7 +75,7 @@ class home extends StatelessWidget {
                   ),
                 ),
               ),
-                    const SizedBox(height: 60),
+                    const SizedBox(height: 40),
               ElevatedButton.icon(
                 onPressed: () {
                   Navigator.push(
@@ -105,6 +105,7 @@ class home extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 30,)
             ],
           ),
         ),
